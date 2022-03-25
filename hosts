@@ -1,0 +1,4 @@
+[nodes]
+client.example.com ds='<DS Name>' cluster='<Cluster Name>' guest_template='<Template Name>' guest_notes='<VM Notes>' guest_memory='<MEM>' guest_vcpu='<CPU>'
+sserver.example.com ds='<DS Name>' cluster='<Cluster Name>' guest_template='<Template Name>' guest_notes='<VM Notes>' guest_memory='<MEM>' guest_vcpu='<CPU>'
+db.example.com ds='<DS Name>' cluster='<Cluster Name>' guest_template='<Template Name>' guest_notes='<VM Notes>' guest_memory='<MEM>' guest_vcpu='<CPU>'

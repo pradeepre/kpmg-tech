@@ -1,0 +1,10 @@
+# Infrastructure
+# - Define the vCenter / vSphere environment
+host: '<VC Name>'
+user: '<Username>'
+password: '<password>'
+datacenter: '<DC>'
+
+# - Describes virtual machine common options
+guest_network: '<NW>'
+guest_id: 'rhel7_64Guest'

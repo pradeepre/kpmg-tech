@@ -1,0 +1,27 @@
+---
+
+- name: Deploy VM from template
+  vmware_guest:
+    hostname: '{{ host }}'
+    username: '{{ user }}'
+    password: '{{ password }}'
+    validate_certs: no
+    datacenter: '{{ datacenter }}'
+    cluster: '{{ cluster }}'
+    folder: '{{ folder }}'
+    name: '{{ inv_hostname }}'
+    state: poweredoff
+    guest_id: '{{ guest_id }}'
+    annotation: "{{ guest_notes }}"
+    disk:
+    - size_gb: 120
+      type: thin
+      datastore: '{{ ds }}'
+    hardware:
+      memory_mb: '{{ guest_memory }}'
+      num_cpus: '{{ guest_vcpu }}'
+      hostname: '{{ inv_hostname }}'
+    template: '{{ guest_template }}'
+    wait_for_ip_address: no
+    state: poweredoff
+  delegate_to: localhost
