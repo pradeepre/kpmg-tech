@@ -7,6 +7,7 @@
 ## Steps for Question 1
 ```
 cd kpmg-tech
+Make necessary updates to hosts & ansible role file(deploy-rhcos-template/vars/main.yml)
 ansible-playbook -i hosts vm_rhcos_provision.yml --extra-vars "folder=<Folder name>"
 ```
 
