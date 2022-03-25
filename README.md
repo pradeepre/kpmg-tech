@@ -1,10 +1,10 @@
 # kpmg-tech
 
 **Requirements**
-Running EC2 instance
-Python
-pipenv
+  Running EC2 instance
+  Python
+  pipenv
 
 **Steps**
-# cd aws-metadata
-# python3 aws-metadata.py
+cd aws-metadata
+python3 aws-metadata.py
