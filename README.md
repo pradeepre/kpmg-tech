@@ -7,7 +7,7 @@
 ## Steps for Question 1
 ```
 cd kpmg-tech
-ansible-playbook -i hosts vm_rhcos_provision.yml --extra-vars "amd_vsphere_folder=<Folder name>"
+ansible-playbook -i hosts vm_rhcos_provision.yml --extra-vars "folder=<Folder name>"
 ```
 
 ## Requirements for Question 2
