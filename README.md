@@ -1,9 +1,9 @@
 # kpmg-tech
 
 ## Requirements
-  Running EC2 instance
-  Python
-  pipenv
+- Running EC2 instance
+- Python
+- pipenv
 
 ## Steps
 ```
