@@ -1,23 +1,12 @@
-# kpmg-tech
+# Fetch AWS metadata in JSON format
 
-## Requirements for Question 1
-- Ansible 2.5+
-- pyvmomi
-
-## Steps for Question 1
-```
-cd kpmg-tech
-Make necessary updates to hosts & ansible role file(deploy-rhcos-template/vars/main.yml)
-ansible-playbook -i hosts vm_rhcos_provision.yml --extra-vars "folder=<Folder name>"
-```
-
-## Requirements for Question 2
+## Requirements
 - Running EC2 instance
 - Python
 - pipenv
 
-## Steps for Question 2
+## Steps
 ```
-cd kpmg-tech
+cd kpmg-tech/"AWS Metadata"
 python3 aws-metadata.py
 ```
