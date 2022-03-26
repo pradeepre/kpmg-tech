@@ -8,6 +8,7 @@
 Run the below steps to create infrastructure.
 
 * git clone https://github.com/pradeepre/kpmg-tech.git
+* cd kpmg-tech/3-tier/Terraform/
 * terraform init
 * terraform plan
 * terraform apply. Please provide the Access Key and Secret Key in order to create the infrastructure.
