@@ -1,23 +1,20 @@
 # kpmg-tech
 
-## Requirements for Question 1
-- Ansible 2.5+
-- pyvmomi
+## Question 1
+- A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these resources.
 
-## Steps for Question 1
-```
-cd kpmg-tech
-Make necessary updates to hosts & ansible role file(deploy-rhcos-template/vars/main.yml)
-ansible-playbook -i hosts vm_rhcos_provision.yml --extra-vars "folder=<Folder name>"
-```
+## Question 2
+- We need to write code that will query the meta data of an instance within AWS and provide a json formatted output. The choice of language and implementation is up to you.
+  - Bonus Points
+    - The code allows for a particular data key to be retrieved individually
 
-## Requirements for Question 2
-- Running EC2 instance
-- Python
-- pipenv
-
-## Steps for Question 2
+## Question 3
 ```
-cd kpmg-tech
-python3 aws-metadata.py
+We have a nested object, we would like a function that you pass in the object and a key and get back the value. How this is implemented is up to you.
+Example Inputs
+object = {“a”:{“b”:{“c”:”d”}}}
+key = a/b/c
+object = {“x”:{“y”:{“z”:”a”}}}
+key = x/y/z
+value = a
 ```
