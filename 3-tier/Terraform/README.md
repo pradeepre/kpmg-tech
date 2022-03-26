@@ -1,4 +1,4 @@
-# Terraform AWS 3-tier infrastructure
+# My Terraform code for deploying AWS 3-tier infrastructure
 
 ### Requirements:
 
